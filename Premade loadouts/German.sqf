@@ -305,7 +305,7 @@ switch (_typeOfUnit) do {
         this addBackpack "B_Carryall_oli";
         for "_i" from 1 to 2 do {this addItemToBackpack "hlc_200Rnd_792x57_B_MG42";};
         this addHeadgear "MNP_Helmet_Germany";
-        this addWeapon "hlc_lmg_mg42kws_b";
+        this addWeapon "hlc_lmg_MG3";
         this addWeapon "rhsusf_weap_glock17g4";
         this linkItem "ItemMap";
         this linkItem "ItemCompass";
