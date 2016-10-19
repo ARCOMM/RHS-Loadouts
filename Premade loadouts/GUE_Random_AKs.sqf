@@ -1,3 +1,4 @@
+private ["_uniforms", "_vests", "_headgears", "_hguns", "_aks", "_ars", "_hgun", "_hgun_mag"];
 
 _uniforms = [
     "rhs_uniform_gorka_r_g",
