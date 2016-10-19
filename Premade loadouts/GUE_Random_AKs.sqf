@@ -77,19 +77,19 @@ removeBackpack this;
 removeHeadgear this;
 removeGoggles this;
 
-this forceAddUniform (_uniforms select floor random count _uniforms);
+this forceAddUniform selectRandom _uniforms;
 for "_i" from 1 to 4 do {this addItemToUniform "ACE_fieldDressing";};
 this addItemToUniform "ACE_EarPlugs";
 this addItemToUniform "HandGrenade";
 this addItemToUniform "HandGrenade";
-this addVest (_vests select floor random count _vests);
+this addVest selectRandom _vests;
 
 if (0 == floor random 8) then { // random AR or AK
     for "_i" from 1 to 8 do { this addItemToVest "29rnd_300BLK_STANAG"; };
-    this addWeapon (_ars select floor random count _ars);
+    this addWeapon selectRandom _ars;
 } else {
     for "_i" from 1 to 8 do { this addItemToVest "hlc_30Rnd_762x39_b_ak"; };
-    this addWeapon (_aks select floor random count _aks);
+    this addWeapon selectRandom _aks;
 };
 
 _hgun = _hguns select floor random count _hguns;
@@ -98,7 +98,7 @@ _hgun_mag = (getArray (configFile >> "CfgWeapons" >> "hgun_P07_F" >> "magazines"
 for "_i" from 1 to 2 do { this addItemToVest _hgun_mag; };
 this addWeapon _hgun;
 
-this addHeadgear (_headgears select floor random count _headgears);
+this addHeadgear selectRandom _headgears;
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
