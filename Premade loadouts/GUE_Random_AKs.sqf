@@ -1,4 +1,3 @@
-this = _this;
 
 _uniforms = [
     "rhs_uniform_gorka_r_g",
