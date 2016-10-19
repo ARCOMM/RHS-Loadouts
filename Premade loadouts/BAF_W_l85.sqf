@@ -1,5 +1,3 @@
-this = _this;
-
 removeAllWeapons this;
 removeAllItems this;
 removeAllAssignedItems this;
