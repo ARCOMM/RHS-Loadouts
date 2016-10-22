@@ -75,7 +75,6 @@ removeGoggles this;
 
 this forceAddUniform selectRandom _uniforms;
 for "_i" from 1 to 4 do {this addItemToUniform "ACE_fieldDressing";};
-this addItemToUniform "ACE_EarPlugs";
 this addItemToUniform "HandGrenade";
 this addItemToUniform "HandGrenade";
 this addVest selectRandom _vests;
