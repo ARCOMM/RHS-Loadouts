@@ -32,7 +32,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: DEPUTY COMMANDER AND SQUAD LEADER
@@ -59,7 +58,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: FORWARD AIR CONTROLLER
@@ -87,7 +85,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MEDIC
@@ -120,7 +117,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: FIRE TEAM LEADER
@@ -147,7 +143,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: RIFLEMAN
@@ -172,7 +167,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: AUTOMATIC RIFLEMAN
@@ -198,7 +192,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
@@ -225,7 +218,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: RIFLEMAN (AT)
@@ -251,7 +243,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MEDIUM MG TEAM LEADER
@@ -278,7 +269,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MEDIUM MG GUNNER
@@ -302,7 +292,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MEDIUM MG AMMO BEARER
@@ -330,7 +319,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MEDIUM AT TEAM LEADER
@@ -357,7 +345,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MEDIUM AT MISSILE SPECIALIST
@@ -385,7 +372,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MEDIUM AT ASSISTANT MISSILE SPECIALIST
@@ -412,7 +398,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MORTAR TEAM LEADER
@@ -440,7 +425,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 
 // LOADOUT: MORTAR GUNNER
@@ -493,7 +477,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemMap";
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
-		this linkItem "ItemGPS";
     };
 	
 // LOADOUT: PILOT
