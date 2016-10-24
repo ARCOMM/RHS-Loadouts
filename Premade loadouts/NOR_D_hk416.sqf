@@ -10,7 +10,7 @@ removeGoggles this;
 switch (_typeOfUnit) do {
 // LOADOUT: COMMANDER
     case "co": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -37,7 +37,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: DEPUTY COMMANDER AND SQUAD LEADER
     case "dc": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -64,7 +64,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: FORWARD AIR CONTROLLER
     case "fac": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -92,7 +92,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MEDIC
     case "m": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -125,7 +125,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: FIRE TEAM LEADER
     case "ftl": {
-        this forceAddUniform "MNP_CombatUniform_NOR_A";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -152,7 +152,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: RIFLEMAN
     case "r": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -177,7 +177,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: AUTOMATIC RIFLEMAN
     case "ar": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -203,7 +203,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
     case "aar": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -230,7 +230,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: RIFLEMAN (AT)
     case "rat": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -256,7 +256,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MEDIUM MG TEAM LEADER
     case "mmgtl": {
-        this forceAddUniform "MNP_CombatUniform_NOR_A";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -283,7 +283,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MEDIUM MG GUNNER
     case "mmgg": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -307,7 +307,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MEDIUM MG AMMO BEARER
     case "mmgab": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -335,7 +335,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MEDIUM AT TEAM LEADER
     case "mattl": {
-        this forceAddUniform "MNP_CombatUniform_NOR_A";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -362,7 +362,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MEDIUM AT MISSILE SPECIALIST
     case "matg": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -390,7 +390,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MEDIUM AT ASSISTANT MISSILE SPECIALIST
     case "matab": {
-		this forceAddUniform "MNP_CombatUniform_NOR_A";
+		this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -417,7 +417,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MORTAR TEAM LEADER
     case "mtrl": {
-        this forceAddUniform "MNP_CombatUniform_NOR_A";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -445,7 +445,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MORTAR GUNNER
     case "mtrg": {
-        this forceAddUniform "MNP_CombatUniform_NOR_A";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -472,7 +472,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: MORTAR ASSISTANT
     case "mtra": {
-        this forceAddUniform "MNP_CombatUniform_NOR_A";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_A";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_tourniquet";
 		this addItemToUniform "ACE_morphine";
@@ -534,7 +534,7 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: VEHICLE COMMANDER
     case "vc": {
-        this forceAddUniform "MNP_CombatUniform_NOR_B";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_B";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_morphine";
 		this addItemToUniform "ACE_tourniquet";
@@ -550,11 +550,10 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: VEHICLE DRIVER
     case "vd": {
-        this forceAddUniform "MNP_CombatUniform_NOR_B";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_B";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_morphine";
 		this addItemToUniform "ACE_tourniquet";
-		this addItemToUniform "ACE_Flashlight_XL50";
 		for "_i" from 1 to 7 do {this addItemToUniform "rhsusf_mag_40Rnd_46x30_FMJ";};
 		this addHeadgear "rhsusf_cvc_green_helmet";
 		this addWeapon "rhsusf_weap_MP7A1_base_f";
@@ -566,11 +565,10 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: VEHICLE GUNNER
     case "vg": {
-        this forceAddUniform "MNP_CombatUniform_NOR_B";
+        this forceAddUniform "MNP_CombatUniform_NOR_D_B";
 		for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
 		this addItemToUniform "ACE_morphine";
 		this addItemToUniform "ACE_tourniquet";
-		this addItemToUniform "ACE_Flashlight_XL50";
 		for "_i" from 1 to 7 do {this addItemToUniform "rhsusf_mag_40Rnd_46x30_FMJ";};
 		this addVest "V_TacVest_oli";
 		this addHeadgear "rhsusf_cvc_green_ess";
