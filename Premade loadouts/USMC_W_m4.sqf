@@ -98,7 +98,7 @@ switch (_typeOfUnit) do {
         this addWeapon "rhs_weap_m4a1_grip2";
         this addPrimaryWeaponItem "acc_flashlight";
         this addPrimaryWeaponItem "rhsusf_acc_compm4";
-t       his addPrimaryWeaponItem "rhsusf_acc_grip2";
+        this addPrimaryWeaponItem "rhsusf_acc_grip2";
         this addWeapon "rhsusf_weap_m1911a1";
         this addWeapon "Laserdesignator_03";
         this linkItem "ItemMap";
