@@ -88,7 +88,7 @@ if (0 == floor random 8) then { // random AR or AK
 };
 
 _hgun = _hguns select floor random count _hguns;
-_hgun_mag = (getArray (configFile >> "CfgWeapons" >> "hgun_P07_F" >> "magazines") select 0);
+_hgun_mag = (getArray (configFile >> "CfgWeapons" >> _hgun >> "magazines") select 0);
 
 for "_i" from 1 to 2 do { this addItemToVest _hgun_mag; };
 this addWeapon _hgun;
