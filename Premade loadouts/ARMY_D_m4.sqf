@@ -82,7 +82,7 @@ switch (_typeOfUnit) do {
         this addItemToUniform "ACE_Flashlight_XL50";
          this addItemToUniform "Laserbatteries";
         this addItemToUniform "ACE_MapTools";
-        this addVest "rhsusf_iotv_ucp_Squadleader";
+        this addVest "rhsusf_assault_eagleaiii_ucp";
         for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
         for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
         for "_i" from 1 to 6 do {this addItemToVest "rhs_mag_M433_HEDP";};
@@ -207,7 +207,6 @@ switch (_typeOfUnit) do {
         this addItemToUniform "ACE_tourniquet";
         this addItemToUniform "ACE_morphine";
         this addItemToUniform "ACE_IR_Strobe_Item";
-        this addItemToUniform "ACE_Flashlight_XL50";
         this addVest "rhsusf_iotv_ucp_SAW";
         this addItemToVest "hlc_200rnd_556x45_T_SAW";
         this addItemToVest "rhsusf_mag_7x45acp_MHP";
@@ -331,6 +330,7 @@ switch (_typeOfUnit) do {
         this addWeapon "rhsusf_weap_m1911a1";
         this linkItem "ItemMap";
         this linkItem "ItemCompass";
+        this linkItem "ItemWatch";
 
     };
 

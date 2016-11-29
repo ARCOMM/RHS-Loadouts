@@ -477,7 +477,7 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemCompass";
 		this linkItem "ItemWatch";
     };
-	
+
 // LOADOUT: PILOT
     case "p": {
 		this forceAddUniform "U_B_HeliPilotCoveralls";

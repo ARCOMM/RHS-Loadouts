@@ -173,11 +173,11 @@ switch (_typeOfUnit) do {
         for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
         this addItemToUniform "ACE_tourniquet";
         this addItemToUniform "ACE_morphine";
-         this addItemToUniform "ACE_IR_Strobe_Item";
+        this addItemToUniform "ACE_IR_Strobe_Item";
         this addItemToUniform "ACE_Flashlight_XL50";
-         this addVest "MNP_Vest_Germany_2";
-         for "_i" from 1 to 5 do {this addItemToVest "hlc_20rnd_762x51_b_G3";};
-         for "_i" from 1 to 3 do {this addItemToVest "hlc_20rnd_762x51_t_G3";};
+        this addVest "MNP_Vest_Germany_2";
+        for "_i" from 1 to 5 do {this addItemToVest "hlc_20rnd_762x51_b_G3";};
+        for "_i" from 1 to 3 do {this addItemToVest "hlc_20rnd_762x51_t_G3";};
         for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
         for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
         this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";
@@ -192,54 +192,49 @@ switch (_typeOfUnit) do {
 
 // LOADOUT: AUTOMATIC RIFLEMAN
     case "ar": {
-        this forceAddUniform "MNP_CombatUniform_Germany";
-        for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
-        this addItemToUniform "ACE_tourniquet";
-        this addItemToUniform "ACE_morphine";
-        this addItemToUniform "ACE_IR_Strobe_Item";
-        this addItemToUniform "ACE_Flashlight_XL50";
-        this addVest "MNP_Vest_Germany_2";
-        for "_i" from 1 to 2 do {this addItemToVest "hlc_100Rnd_762x51_M_M60E4";};
-        for "_i" from 1 to 1 do {this addItemToVest "rhs_mag_m67";};
-        for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
-        this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";
-        this addBackpack "B_Kitbag_rgr";
-        for "_i" from 1 to 3 do {this addItemToBackpack "hlc_100Rnd_762x51_M_M60E4";};
-        this addHeadgear "MNP_Helmet_Germany";
-        this addWeapon "rhs_weap_m27iar";
-        this addPrimaryWeaponItem "rhsusf_acc_SF3P556";
-        this addPrimaryWeaponItem "acc_flashlight";
-        this addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";
-        this addPrimaryWeaponItem "bipod_03_F_blk";
-        this addWeapon "rhsusf_weap_glock17g4";
-        this linkItem "ItemMap";
-        this linkItem "ItemCompass";
-        this linkItem "ItemWatch";
+      this forceAddUniform "MNP_CombatUniform_Germany";
+      for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+      this addItemToUniform "ACE_tourniquet";
+      this addItemToUniform "ACE_morphine";
+      this addItemToUniform "ACE_IR_Strobe_Item";
+      this addItemToUniform "ACE_Flashlight_XL50";
+      this addVest "MNP_Vest_Germany_2";
+      this addItemToVest "rhs_mag_m67";
+      for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
+      for "_i" from 1 to 3 do {this addItemToVest "hlc_100Rnd_762x51_M_M60E4";};
+      this addBackpack "B_Kitbag_rgr";
+      for "_i" from 1 to 4 do {this addItemToBackpack "hlc_100Rnd_762x51_T_M60E4";};
+      this addHeadgear "MNP_Helmet_Germany";
+      this addWeapon "hlc_lmg_mk48";
+      this addWeapon "rhsusf_weap_glock17g4";
+      this linkItem "ItemMap";
+      this linkItem "ItemCompass";
+      this linkItem "ItemWatch";
      };
 
 // LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
     case "aar": {
-        this forceAddUniform "MNP_CombatUniform_Germany";
-        for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
-        this addItemToUniform "ACE_tourniquet";
-        this addItemToUniform "ACE_morphine";
-         this addItemToUniform "ACE_IR_Strobe_Item";
-        this addItemToUniform "ACE_Flashlight_XL50";
-         this addVest "MNP_Vest_Germany_2";
-         for "_i" from 1 to 5 do {this addItemToVest "hlc_20rnd_762x51_b_G3";};
-         for "_i" from 1 to 3 do {this addItemToVest "hlc_20rnd_762x51_t_G3";};
-        for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
-        for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
-        this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";
-        this addBackpack "B_Kitbag_rgr";
-        for "_i" from 1 to 4 do {this addItemToBackpack "hlc_100Rnd_762x51_M_M60E4";};
-        this addHeadgear "MNP_Helmet_Germany";
-        this addWeapon "hlc_rifle_g3ka4";
-        this addPrimaryWeaponItem "acc_flashlight";
-        this addWeapon "rhsusf_weap_glock17g4";
-        this linkItem "ItemMap";
-        this linkItem "ItemCompass";
-        this linkItem "ItemWatch";
+      this forceAddUniform "MNP_CombatUniform_Germany";
+      for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+      this addItemToUniform "ACE_tourniquet";
+      this addItemToUniform "ACE_morphine";
+      this addItemToUniform "ACE_IR_Strobe_Item";
+      this addItemToUniform "ACE_Flashlight_XL50";
+      for "_i" from 1 to 2 do {this addItemToUniform "hlc_20rnd_762x51_b_G3";};
+      this addVest "MNP_Vest_Germany_2";
+      this addItemToVest "rhs_mag_m67";
+      for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
+      for "_i" from 1 to 5 do {this addItemToVest "hlc_20rnd_762x51_b_G3";};
+      for "_i" from 1 to 4 do {this addItemToVest "hlc_20rnd_762x51_T_G3";};
+      this addBackpack "B_Kitbag_rgr";
+      for "_i" from 1 to 7 do {this addItemToBackpack "hlc_100Rnd_762x51_T_M60E4";};
+      this addHeadgear "MNP_Helmet_Germany";
+      this addWeapon "hlc_rifle_g3ka4";
+      this addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";
+      this addWeapon "rhsusf_weap_glock17g4";
+      this linkItem "ItemMap";
+      this linkItem "ItemCompass";
+      this linkItem "ItemWatch";
      };
 
 // LOADOUT: RIFLEMAN (AT)
@@ -248,9 +243,9 @@ switch (_typeOfUnit) do {
         for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
         this addItemToUniform "ACE_tourniquet";
         this addItemToUniform "ACE_morphine";
-         this addItemToUniform "ACE_IR_Strobe_Item";
+        this addItemToUniform "ACE_IR_Strobe_Item";
         this addItemToUniform "ACE_Flashlight_XL50";
-          this addVest "MNP_Vest_Germany_2";
+        this addVest "MNP_Vest_Germany_2";
         for "_i" from 1 to 5 do {this addItemToVest "hlc_20rnd_762x51_b_G3";};
         for "_i" from 1 to 3 do {this addItemToVest "hlc_20rnd_762x51_t_G3";};
         for "_i" from 1 to 1 do {this addItemToVest "rhs_mag_m67";};
@@ -626,13 +621,5 @@ switch (_typeOfUnit) do {
         this linkItem "ItemCompass";
         this linkItem "ItemWatch";
         this linkItem "rhsusf_ANPVS_15";
-    };
-
-// LOADOUT: DEFAULT/UNDEFINED (use RIFLEMAN)
-    default {
-        if (_typeOfUnit != "r") then {["r", this] call f_fnc_assignGear;};
-        if (true) exitWith {player globalChat format ["DEBUG (f\assignGear\f_assignGear_indfor.sqf): Unit = %1. Gear template %2 does not exist, used Rifleman instead.", this, _typeOfUnit]};
-    };
-};
-
-this selectWeapon primaryWeapon this;
+          };
+  };
