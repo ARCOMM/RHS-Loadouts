@@ -421,6 +421,7 @@ switch (_typeOfUnit) do {
 		this addItemToUniform "ACE_Flashlight_XL50";
 		this addItemToUniform "ACE_morphine";
 		this addItemToUniform "ACE_EarPlugs";
+		this addItemToUniform "ACE_MapTools";
 		this addVest "MNP_Vest_ISRKahki_2";
 		for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_an_m8hc";};
 		for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
@@ -450,6 +451,7 @@ switch (_typeOfUnit) do {
 		this addItemToUniform "ACE_EarPlugs";
 		this addItemToUniform "ACE_morphine";
 		this addItemToUniform "ACE_RangeTable_82mm";
+		this addItemToUniform "ACE_MapTools";
 		this addVest "MNP_Vest_ISRKahki_2";
 		for "_i" from 1 to 7 do {this addItemToVest "30Rnd_556x45_Stanag";};
 		for "_i" from 1 to 3 do {this addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
@@ -476,6 +478,7 @@ switch (_typeOfUnit) do {
 		this addItemToUniform "ACE_EarPlugs";
 		this addItemToUniform "ACE_morphine";
 		this addItemToUniform "ACE_RangeTable_82mm";
+		this addItemToUniform "ACE_MapTools";
 		this addVest "MNP_Vest_ISRKahki_2";
 		for "_i" from 1 to 7 do {this addItemToVest "30Rnd_556x45_Stanag";};
 		for "_i" from 1 to 3 do {this addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
