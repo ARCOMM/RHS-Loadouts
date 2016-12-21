@@ -21,7 +21,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
       this addItemToUniform "ACE_MapTools";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
@@ -47,7 +46,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
       this addItemToUniform "ACE_MapTools";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
@@ -73,7 +71,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
       this addItemToUniform "ACE_MapTools";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
@@ -99,7 +96,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_tourniquet";
       this addItemToUniform "ACE_morphine";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_medic";
       for "_i" from 1 to 5 do {this addItemToVest "ACE_salineIV_250";};
@@ -130,7 +126,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
       this addItemToUniform "ACE_MapTools";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
@@ -156,7 +151,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_f1";};
@@ -178,7 +172,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_f1";};
@@ -201,7 +194,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_f1";};
@@ -226,7 +218,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_f1";};
@@ -253,7 +244,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
       this addItemToUniform "ACE_MapTools";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
@@ -280,7 +270,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgn";};
@@ -304,7 +293,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 6 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
@@ -330,7 +318,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
       this addItemToUniform "ACE_MapTools";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
@@ -357,7 +344,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 6 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
@@ -386,7 +372,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 6 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
@@ -413,7 +398,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
       this addItemToUniform "ACE_MapTools";
       this addItemToUniform "ACE_RangeTable_82mm";
 
@@ -441,7 +425,6 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 6 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
@@ -466,7 +449,8 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
       this addItemToUniform "ACE_tourniquet";
-      this addItemToUniform "ACE_EarPlugs";
+      this addItemToUniform "ACE_MapTools";
+      this addItemToUniform "ACE_RangeTable_82mm";
 
       this addVest "rhsgref_6b23_khaki_rifleman";
       for "_i" from 1 to 6 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
@@ -527,7 +511,6 @@ switch (_typeOfUnit) do {
       this forceAddUniform "rhs_uniform_m88_patchless";
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki";
       for "_i" from 1 to 3 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
@@ -549,7 +532,6 @@ switch (_typeOfUnit) do {
       this forceAddUniform "rhs_uniform_m88_patchless";
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki";
       for "_i" from 1 to 3 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
@@ -569,7 +551,6 @@ switch (_typeOfUnit) do {
       this forceAddUniform "rhs_uniform_m88_patchless";
       for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
       this addItemToUniform "ACE_morphine";
-      this addItemToUniform "ACE_EarPlugs";
 
       this addVest "rhsgref_6b23_khaki";
       for "_i" from 1 to 3 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
