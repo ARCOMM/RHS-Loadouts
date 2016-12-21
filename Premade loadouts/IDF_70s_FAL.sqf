@@ -481,7 +481,7 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 4 do {this addItemToVest "hlc_20Rnd_762x51_B_fal";};
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
 
-      this addBackpack "rhs_M252_Gun_Bag";
+      this addBackpack "I_Mortar_01_weapon_F";
 
       this addHeadgear "UK3CB_BAF_H_Mk7_Scrim_E";
 
@@ -508,7 +508,7 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 4 do {this addItemToVest "hlc_20Rnd_762x51_B_fal";};
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
 
-      this addBackpack "rhs_M252_Bipod_Bag";
+      this addBackpack "I_Mortar_01_support_F";
 
       this addHeadgear "UK3CB_BAF_H_Mk7_Scrim_E";
 

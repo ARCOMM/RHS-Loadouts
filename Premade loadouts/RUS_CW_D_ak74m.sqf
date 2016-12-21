@@ -431,7 +431,7 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgn";};
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
 
-      this addBackpack "RHS_Podnos_Gun_Bag";
+      this addBackpack "O_Mortar_01_weapon_F";
 
       this addHeadgear "rhs_ssh68";
 
@@ -457,7 +457,7 @@ switch (_typeOfUnit) do {
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgn";};
       for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
 
-      this addBackpack "RHS_Podnos_Bipod_Bag";
+      this addBackpack "O_Mortar_01_support_F";
 
       this addHeadgear "rhs_ssh68";
 
