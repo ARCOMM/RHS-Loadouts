@@ -565,7 +565,6 @@ switch (_typeOfUnit) do {
 		this linkItem "ItemWatch";
 		this linkItem "ItemGPS";
     };
-};
 
 // LOADOUT: DEFAULT/UNDEFINED (use RIFLEMAN)
     default {
