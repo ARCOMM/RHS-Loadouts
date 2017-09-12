@@ -1,0 +1,15 @@
+this forceAddUniform "rhs_uniform_cu_ucp";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "rhsusf_spcs_ucp";
+for "_i" from 1 to 6 do {this addItemToVest "30Rnd_556x45_Stanag";};
+for "_i" from 1 to 4 do {this addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_Chemlight_HiRed";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_HandFlare_Red";};
+for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_m67";};
+this addHeadgear "rhsusf_cvc_green_helmet";
+this addWeapon "rhs_weap_m4a1_carryhandle";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

@@ -1,0 +1,18 @@
+this forceAddUniform "rhs_uniform_gorka_r_g";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "rhs_6b23_6sh116";
+for "_i" from 1 to 8 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgn";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
+this addBackpack "rhs_rpg_empty";
+for "_i" from 1 to 4 do {this addItemToBackpack "rhs_rpg7_PG7VL_mag";};
+this addHeadgear "rhs_6b7_1m_emr_ess_bala";
+this addWeapon "rhs_weap_ak74m";
+this addPrimaryWeaponItem "rhs_acc_dtk";
+this addWeapon "rhs_weap_rpg7";
+this addSecondaryWeaponItem "rhs_acc_pgo7v";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

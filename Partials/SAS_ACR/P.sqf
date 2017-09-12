@@ -1,0 +1,16 @@
+this forceAddUniform "U_B_GEN_Commander_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "V_TacVest_blk";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
+for "_i" from 1 to 6 do {this addItemToVest "hlc_30Rnd_9x19_B_MP5";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellPurple";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellRed";};
+this addHeadgear "H_PilotHelmetHeli_B";
+this addWeapon "hlc_smg_mp5a3";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

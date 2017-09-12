@@ -1,0 +1,16 @@
+this forceAddUniform "U_B_GEN_Commander_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "V_TacVest_blk";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
+this addItemToVest "hlc_200rnd_556x45_M_SAW";
+this addBackpack "B_AssaultPack_blk";
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
+this addGoggles "avon_ct12";
+this addWeapon "hlc_lmg_m249para";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

@@ -1,0 +1,10 @@
+this forceAddUniform "rhs_uniform_df15_tan";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addVest "rhs_vest_pistol_holster";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_9x18_8_57N181S";};
+this addHeadgear "rhs_zsh7a_mike_green_alt";
+this addWeapon "rhs_weap_makarov_pm";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

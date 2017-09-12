@@ -1,0 +1,14 @@
+this forceAddUniform "MNP_CombatUniform_ISR";
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_EntrenchingTool";
+this addItemToUniform "ACE_CableTie";
+this addVest "rhs_6sh46";
+for "_i" from 1 to 5 do {this addItemToVest "rhsusf_mag_7x45acp_MHP";};
+this addHeadgear "rhsusf_cvc_green_helmet";
+this addWeapon "rhsusf_weap_m1911a1";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

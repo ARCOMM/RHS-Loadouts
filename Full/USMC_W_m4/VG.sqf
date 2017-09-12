@@ -1,0 +1,18 @@
+this forceAddUniform "rhs_uniform_cu_ucp";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addVest "rhsusf_spc_crewman";
+this addItemToVest "rhs_mag_m18_green";
+this addItemToVest "rhs_mag_m18_red";
+for "_i" from 1 to 6 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+this addItemToVest "rhsusf_mag_7x45acp_MHP";
+this addHeadgear "rhsusf_cvc_helmet";
+this addWeapon "hlc_rifle_Colt727";
+this addPrimaryWeaponItem "acc_flashlight";
+this addWeapon "rhsusf_weap_m1911a1";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

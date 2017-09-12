@@ -1,0 +1,12 @@
+this forceAddUniform "MNP_CombatUniform_NOR_B";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 7 do {this addItemToUniform "rhsusf_mag_40Rnd_46x30_FMJ";};
+this addHeadgear "rhsusf_cvc_green_helmet";
+this addWeapon "rhsusf_weap_MP7A1_base_f";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

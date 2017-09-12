@@ -1,0 +1,14 @@
+this forceAddUniform "U_B_HeliPilotCoveralls";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_tourniquet";
+this addVest "V_TacVest_blk";
+for "_i" from 1 to 7 do {this addItemToVest "rhsusf_mag_40Rnd_46x30_FMJ";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
+this addHeadgear "H_PilotHelmetHeli_B";
+this addWeapon "rhsusf_weap_MP7A1_base_f";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

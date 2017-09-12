@@ -1,0 +1,15 @@
+this forceAddUniform "rhs_uniform_m88_patchless";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_RangeTable_82mm";
+this addItemToUniform "ACE_MapTools";
+this addVest "rhs_6b23_ML";
+this addItemToVest "rhs_mag_rgd5";
+this addItemToVest "rhsgref_5Rnd_762x54_m38";
+this addBackpack "O_Mortar_01_support_F";
+this addHeadgear "rhs_ssh68";
+this addWeapon "rhs_weap_m38";
+this addWeapon "rhs_weap_makarov_pm";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

@@ -1,0 +1,18 @@
+this forceAddUniform "rhs_uniform_gorka_r_g";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_MapTools";
+this addVest "rhs_6b23_6sh116_vog";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgn";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
+for "_i" from 1 to 10 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
+for "_i" from 1 to 4 do {this addItemToVest "rhs_VOG25";};
+for "_i" from 1 to 4 do {this addItemToVest "rhs_VG40OP_white";};
+this addHeadgear "rhs_6b7_1m_emr_ess_bala";
+this addWeapon "rhs_weap_ak74m_gp25";
+this addPrimaryWeaponItem "rhs_acc_dtk";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

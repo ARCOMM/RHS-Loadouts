@@ -1,0 +1,12 @@
+this forceAddUniform "rhsgref_uniform_ttsko_forest";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addVest "rhsgref_6b23_khaki_nco";
+for "_i" from 1 to 3 do {this addItemToVest "hlc_30Rnd_762x39_b_ak";};
+for "_i" from 1 to 3 do {this addItemToVest "hlc_30Rnd_762x39_t_ak";};
+this addHeadgear "rhs_gssh18";
+this addWeapon "hlc_rifle_akm";
+this addWeapon "rhs_weap_makarov_pm";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

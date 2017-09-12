@@ -1,0 +1,14 @@
+this forceAddUniform "usm_bdu_odg";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_MapTools";
+this addBackpack "usm_pack_200rnd_556_bandoliers";
+for "_i" from 1 to 6 do {this addItemToBackpack "rhsusf_mag_7x45acp_MHP";};
+this addHeadgear "usm_helmet_cvc";
+this addWeapon "rhsusf_weap_m1911a1";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

@@ -1,0 +1,18 @@
+this forceAddUniform "MNP_CombatUniform_Germany";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addVest "V_TacVest_oli";
+for "_i" from 1 to 5 do {this addItemToVest "hlc_20rnd_762x51_b_G3";};
+this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";
+this addItemToVest "rhs_mag_m18_green";
+this addItemToVest "rhs_mag_m18_red";
+this addHeadgear "rhsusf_cvc_green_helmet";
+this addWeapon "hlc_rifle_g3ka4";
+this addPrimaryWeaponItem "acc_flashlight";
+this addWeapon "rhsusf_weap_glock17g4";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

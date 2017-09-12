@@ -1,0 +1,13 @@
+this forceAddUniform "UK3CB_BAF_U_Smock_DPMW";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addVest "UK3CB_BAF_V_Osprey_DPMW4";
+for "_i" from 1 to 2 do {this addItemToVest "UK3CB_BAF_762_100Rnd_T";};
+this addHeadgear "UK3CB_BAF_H_Mk6_DPMW_C";
+this addWeapon "UK3CB_BAF_L7A2";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
