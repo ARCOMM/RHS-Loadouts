@@ -1,0 +1,14 @@
+this forceAddUniform "U_LIB_GER_Recruit";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "LIB_8Rnd_9x19";
+this addVest "V_LIB_GER_VestUnterofficer";
+for "_i" from 1 to 10 do {this addItemToVest "LIB_32Rnd_9x19";};
+for "_i" from 1 to 2 do {this addItemToVest "LIB_nb39";};
+this addItemToVest "LIB_m39";
+this addHeadgear "H_LIB_GER_Cap";
+this addWeapon "LIB_MP40";
+this addWeapon "LIB_P38";
+this addWeapon "LIB_Binocular_GER";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";

@@ -1,0 +1,14 @@
+this forceAddUniform "U_LIB_GER_Schutze";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "LIB_8Rnd_9x19_P08";
+this addVest "V_LIB_GER_VestKar98";
+for "_i" from 1 to 2 do {this addItemToVest "LIB_shg24";};
+for "_i" from 1 to 16 do {this addItemToVest "LIB_5Rnd_792x57";};
+this addBackpack "B_LIB_GER_A_frame";
+this addItemToBackpack "ACE_EntrenchingTool";
+this addHeadgear "H_LIB_GER_Helmet";
+this addWeapon "LIB_K98";
+this addWeapon "LIB_P08";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";

@@ -1,0 +1,13 @@
+this forceAddUniform "U_LIB_GER_Oberschutze";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "LIB_8Rnd_9x19_P08";
+this addVest "V_LIB_GER_SniperBelt";
+for "_i" from 1 to 2 do {this addItemToVest "LIB_shg24";};
+for "_i" from 1 to 7 do {this addItemToVest "LIB_10Rnd_792x57";};
+this addBackpack "B_LIB_GER_Radio";
+this addHeadgear "H_LIB_GER_TankPrivateCap";
+this addWeapon "LIB_G43";
+this addWeapon "LIB_P08";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
