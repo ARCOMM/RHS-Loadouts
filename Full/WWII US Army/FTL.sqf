@@ -1,0 +1,15 @@
+this forceAddUniform "U_LIB_US_Private";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "LIB_7Rnd_45ACP";
+for "_i" from 1 to 2 do {this addItemToUniform "LIB_30Rnd_45ACP";};
+this addVest "V_LIB_US_Vest_45";
+for "_i" from 1 to 5 do {this addItemToVest "LIB_30Rnd_45ACP";};
+this addItemToVest "LIB_US_Mk_2";
+this addBackpack "B_LIB_US_Bandoleer";
+this addHeadgear "H_LIB_US_Helmet";
+this addWeapon "LIB_M1A1_Thompson";
+this addWeapon "LIB_Colt_M1911";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
